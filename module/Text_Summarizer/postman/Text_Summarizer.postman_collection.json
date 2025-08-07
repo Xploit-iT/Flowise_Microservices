@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "c5b4fe11-313b-4a2f-9b2a-38d237142f25",
+		"name": "My Collection",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47414619",
+		"_collection_link": "https://muzammilabbasi-official-7535379.postman.co/workspace/Mohammad-Muzammil-Abbasi's-Work~53b59caa-dd0e-488a-8b80-2e0b0b2b15b9/collection/47414619-c5b4fe11-313b-4a2f-9b2a-38d237142f25?action=share&source=collection_link&creator=47414619"
+	},
+	"item": [
+		{
+			"name": "Text_Summarizer API",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"question\": \"Barnaby the troll lived under the bridge by the Whispering Woods. He was a grumpy old troll, always scowling and muttering under his breath. The children of Willow Creek knew to steer clear of Barnaby's bridge. If you accidentally dropped a ball near it, you could forget about ever seeing it again. One sunny morning, Lily, a little girl with bright red boots and a sunshine-yellow dress, was walking by Barnaby’s bridge. She carried a basket of juicy red apples, freshly picked from her grandma's orchard. Suddenly, a playful gust of wind snatched her favorite red ribbon right off her hair! The ribbon fluttered and danced, landing precariously close to the edge of the bridge. Lily bravely crept closer, her heart thumping. Excuse me, Mr. Barnaby, she whispered. Would you mind... could you please... help me get my ribbon? Barnaby, who was about to nap, grumbled. Ribbons? What do I care about ribbons? Lily’s eyes filled with tears. It's my favorite, she said, her voice trembling. My grandma gave it to me. Barnaby looked at the ribbon, then at Lily’s teary face. Something shifted inside him. He remembered a long time ago, when he was just a little troll, and his own grandma had given him a special, mossy stone. Slowly, Barnaby extended his long arm. His fingers, usually so rough, gently picked up the red ribbon. He held it out to Lily, his grumpy frown softened. Lily’s face lit up. Thank you, thank you, Mr. Barnaby! she exclaimed, snatching the ribbon and tying it back in her hair. She reached into her basket and pulled out the reddest, juiciest apple. For you, she said, offering it to him. Barnaby blinked. No one had ever given him anything before, let alone an apple! He took a bite. It was crisp and sweet, the best apple he'd ever tasted. From that day on, Barnaby was still a little bit grumpy, but he wasn't quite so mean. He even started waving to the children as they passed by his bridge. And sometimes, when a ball rolled near, he’d pick it up and roll it back with a tiny smile. And Lily always remembered to bring Barnaby an apple when she walked past the Whispering Woods, reminding him that even the grumpiest hearts can find a little bit of sunshine.\"\r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/prediction/5568ec51-731b-42ab-b3bc-0c1af5808e83",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"prediction",
+						"5568ec51-731b-42ab-b3bc-0c1af5808e83"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
