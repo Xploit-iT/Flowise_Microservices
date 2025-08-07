@@ -111,6 +111,13 @@ Content-Type: application/json
   "text": "The ChronoCrystal in the story serves as the artifact that enables Elara to traverse through time, unlocking her role as the new Timekeeper."
 }
 ```
+## 📄 Sample Document
+
+This fictional story is used as a test document for the Q&A microservice.
+
+🔗 [Download The Timekeeper’s Legacy (PDF)](The_Timekeepers_Legacy.pdf)
+
+> ⚠️ **Note**: GitHub may not render this PDF in-browser. If you see a "Invalid PDF" error, simply download the file to view it locally.
 ## 🧪 Test With Postman
 Open Postman
 
