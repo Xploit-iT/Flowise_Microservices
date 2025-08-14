@@ -73,7 +73,7 @@ dynamic-learning-path/
 
 **1️⃣ Clone the repository**
 ```
-git clone https://github.com/yourusername/dynamic-learning-path.git
+git clone https://github.com/Xploit-iT/dynamic-learning-path.git
 cd dynamic-learning-path
 ```
 **2️⃣ Install Flowise**
