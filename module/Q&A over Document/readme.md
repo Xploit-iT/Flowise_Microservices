@@ -71,23 +71,16 @@ Option B: Manually Create Chatflow
 Use the following nodes:
 
  - PDF Loader
-
  - Text Splitter
-
  - Embedding Model (HuggingFaceEmbeddings)
-
  - In-Memory Vector Store
-
  - RetrievalQA Chain
-
 - LLM (OpenAI / Groq / Ollama)
 
 Configure the flow to take:
 
  - User Question
-
  - Document Context
-
  - Return Answer
 
 ## 📫 API Usage
@@ -119,24 +112,18 @@ This fictional story is used as a test document for the Q&A microservice.
 
 > ⚠️ **Note**: GitHub may not render this PDF in-browser. If you see a "Invalid PDF" error, simply download the file to view it locally.
 ## 🧪 Test With Postman
-Open Postman
-
-Import: postman/document_qa.postman_collection.json
-
-Update flow ID in URL
-
-Click Send to receive the answer
+Open Postman  
+Import: postman/document_qa.postman_collection.json  
+Update flow ID in URL  
+Click Send to receive the answer  
 
 ## 🌐 Credits
-Flowise AI
 
-LangChain
-
-OpenAI
-
-Groq
-
-HuggingFace
+Flowise AI  
+LangChain  
+OpenAI  
+Groq  
+HuggingFace  
 
 ## ✨ Author
 Mohammad Muzammil Abbasi    
