@@ -86,15 +86,13 @@ npx flowise start
 
 **3️⃣ Import the Chatflow**
 
-Open Flowise at: http://localhost:3000
-
-Navigate to AgentFlows → Import
-
-Upload dynamic_learning_path.chatflow.json
+ - Open Flowise at: http://localhost:3000
+ - Navigate to AgentFlows → Import
+ - Upload dynamic_learning_path.chatflow.json
 
 **4️⃣ Run the Flow**
 
-Interact through Flowise UI or via API
+ - Interact through Flowise UI or via API
 
 ## 📫 API Usage
 Endpoint
