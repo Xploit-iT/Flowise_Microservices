@@ -70,25 +70,25 @@ Upload: flowise-chatflow/document_qa.chatflow.json
 Option B: Manually Create Chatflow  
 Use the following nodes:
 
-PDF Loader
+ - PDF Loader
 
-Text Splitter
+ - Text Splitter
 
-Embedding Model (HuggingFaceEmbeddings)
+ - Embedding Model (HuggingFaceEmbeddings)
 
-In-Memory Vector Store
+ - In-Memory Vector Store
 
-RetrievalQA Chain
+ - RetrievalQA Chain
 
-LLM (OpenAI / Groq / Ollama)
+- LLM (OpenAI / Groq / Ollama)
 
 Configure the flow to take:
 
-User Question
+ - User Question
 
-Document Context
+ - Document Context
 
-Return Answer
+ - Return Answer
 
 ## 📫 API Usage
 🔹 Endpoint
@@ -139,8 +139,8 @@ Groq
 HuggingFace
 
 ## ✨ Author
-Mohammad Muzammil Abbasi
-B.Tech, CSE (AI & ML)
+Mohammad Muzammil Abbasi    
+B.Tech, CSE (AI & ML)    
 LinkedIn | GitHub
 
 ## 📄 License
