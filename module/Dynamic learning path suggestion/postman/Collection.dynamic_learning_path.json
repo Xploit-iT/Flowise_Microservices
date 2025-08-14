@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "936182e1-7065-4629-a98f-69d280ec1d57",
+		"name": "Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47414619",
+		"_collection_link": "https://muzammilabbasi-official-7535379.postman.co/workspace/Mohammad-Muzammil-Abbasi's-Work~53b59caa-dd0e-488a-8b80-2e0b0b2b15b9/collection/47414619-936182e1-7065-4629-a98f-69d280ec1d57?action=share&source=collection_link&creator=47414619"
+	},
+	"item": [
+		{
+			"name": "Dynamic learning path",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"question\": \"I want to learn Data Science, I am a beginner, I like learning through videos, I have 5 hours per week and I have to do it in 30 days.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/prediction/2a62a647-f5c4-42dd-9a4a-00475d57e0f0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"prediction",
+						"2a62a647-f5c4-42dd-9a4a-00475d57e0f0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
