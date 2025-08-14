@@ -56,7 +56,7 @@ cd document-qa
 npm install -g flowise
 npx flowise start
 ```
-✅ Pre-requisite: Node.js (v18.15.0 or v20+) must be installed
+> ✅ Pre-requisite: Node.js (v18.15.0 or v20+) must be installed
 
 ### 3. Launch Flowise
 Visit: http://localhost:3000
